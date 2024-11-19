@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Truth or Dare</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Truth or Dare</h1>
+
+      <button onclick="shuffleNames()" class="btn">Next!</button>
+
+      <div class="name">
+        <h2>who's next</h2>
+      </div>
+
+      <div class="choice">
+        <button onclick="shuffleTruth()" class="btn">Truth!</button>
+        <button onclick="shuffleDare()" class="btn">Dare!</button>
+      </div>
+
+      <div class="output">
+        <img class="paper" src="./images/truth0.png" />
+      </div>
+    </div>
+
+    <footer>© Pitt Munir, 2024</footer>
+
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
